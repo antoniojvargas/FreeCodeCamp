@@ -1,0 +1,55 @@
+ body
+ {
+  font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;  
+  background-color: #B4D6FF;;
+  padding-top: 50px;
+  /*padding-bottom: 20px;*/
+  overflow-x:hidden
+ }
+.jumbotron {
+  background-color: #FFFFFF;
+}
+.btn-container {
+  margin:auto;
+  display:block;
+}
+
+#get-another-quote-button{
+  float:left;
+  padding: 14px 24px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  background-color: #0153B8;
+  font-size: 18px; 
+}
+
+#tweet-quote{
+  float:right;
+  padding: 14px 24px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  background-color: #0153B8;
+  font-size: 18px;   
+}
+
+#quote-header {
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #16B6DF;
+    font-weight: bold;
+}
+
+#quote-title {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #16B6DF;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#quote-content {
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+  }
