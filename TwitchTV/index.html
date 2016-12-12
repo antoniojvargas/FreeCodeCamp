@@ -1,0 +1,39 @@
+<head>
+	<meta charset="UTF-8">
+	<title>TwithTV</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+	<link href="style.css" rel="stylesheet"> 
+	<script src="twitch.js"></script>	
+</head>
+
+<body>
+	<div class ="container">
+
+		<div id="header" class="col-xs-12 center-block text-center">
+
+			<h1>TwitchTV</h1>
+			<form id="streamtype">
+			    <label class="radio-inline">
+			    	<input checked type="radio" name="optradio" onclick="check(this.value)" value="all">All
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" onclick="check(this.value)" value="on">On Line
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="optradio" onclick="check(this.value)" value="off">Off Line
+			    </label>
+			</form>
+		</div>
+		<div class="col-xs-12 center-block" id = "chanelInfo">
+
+		</div>
+
+
+
+	</div>
+</body>
