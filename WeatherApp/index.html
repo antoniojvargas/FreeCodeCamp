@@ -1,0 +1,46 @@
+<head>
+	<meta charset="UTF-8">
+	<title>Local Weather</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<link href="style.css" rel="stylesheet"> 
+	<script src="weather.js"></script>
+</head>
+
+<body>
+	<div class="row">
+		<header class="col-xs-12 text-center">
+			<h1>Free Code Camp </h1>
+			<h1>Weather App</h1>
+		</header>
+
+		<div class="text-center" id="iconTemp">
+			<div class="row">
+				<div id="icon">		 	
+				</div>
+			</div>
+			<div class="row">
+				<div id="temp">	
+
+				</div>
+				<p><a class="btn btn-lg btn-primary " role="button" id="convert-units">Convert</a></p>	
+			</div>
+		</div>  
+
+		<div id="weatherWrapper">
+			<div id="location" class="details">
+				
+			</div>
+			<div id="conditions" class="details">
+				
+			</div>
+			<!--<div id="wind" class="details"></div>-->
+		</div>  
+
+	<!--<button>Convert Units</button>-->
+   	</div>
+</body>
