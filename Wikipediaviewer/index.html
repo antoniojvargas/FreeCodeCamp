@@ -1,0 +1,35 @@
+<head>
+	<meta charset="UTF-8">
+	<title>Wikipedia search</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+	<link href="style.css" rel="stylesheet"> 
+	<script src="wiki.js"></script>	
+</head>
+
+<body>
+	<div class = "container-fluid">	
+		<div class="text-center">
+			<h1>Wikipedia Search</h1>
+			<h3>FreeCodeCamp</h3> 
+		</div>
+		<div class="text-center">
+			<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+			<button type="button" class="btn btn-info" id="btnrandom">Random Article</button>
+			</a>
+			<form class="form-inline">
+				<div class="form-group">
+					<input name="search" id="search" type="search" class="form-control">
+					<button type="button" class="btn btn-primary" id="buttonsearch">Search</button>	
+				</div>
+			</form>
+			<ul id = "output" class="text-left">
+
+			</ul>
+		</div>
+	</div>
+</body>
