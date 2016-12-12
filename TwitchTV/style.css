@@ -1,0 +1,63 @@
+body {
+  background-color: #00012F;
+  font-size: 14px;
+  /*color: #8ea7c2;*/
+}
+h1{
+	font-size: 64px;
+}
+.container {
+  margin: 0px auto;
+  padding: 0px;
+  max-width: 800px;
+}
+.logo {
+  max-width: 60px;
+  max-height: 60px;
+  border-radius: 50%;
+  border: 3px solid $container;
+}
+.row {
+  padding: 5px;
+}
+#streaming{
+	font-size: 12px;
+	color: #FFFFFF;
+}
+#name {
+	font-size: 16px;
+}
+.online {
+	background-color: #2336D7;
+}
+.offline {
+	background-color: #E07676;
+}
+#streamtype {
+	font-size: 18px;
+}
+#header {
+	color : #FFFFFF;
+	background-color: #262525;
+}
+#header, .online, .offline {
+	border-top: 3px;
+	border-bottom: 3px;
+	border-left: 6px;
+	border-right: 6px;
+    border-style:solid;	
+    border-color: #FFFFFF;
+}
+
+a:link { /* unvisited link */
+    color: #FFFFFF;
+}
+a:visited { /* visited link */
+    color: #FFFFFF;
+}
+a:hover { /* mouse over link */
+    color: #FCFE3A;
+}
+a:active { /* selected link */
+    color: blue;
+}
