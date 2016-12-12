@@ -1,0 +1,14 @@
+
+body {
+  background-color: #CACDE3;
+  
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Times, Georgia, serif, sans-serif;
+}
+#btnrandom{
+  margin: 25px;
+}
+ul {
+  list-style-type: none;
+}
