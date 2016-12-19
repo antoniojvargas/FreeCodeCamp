@@ -1,0 +1,33 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    color: #FFFFFF;
+}
+body::selection {
+    color: #FFFFFF;   
+}
+body {
+    background-color: #304267;    
+}
+h1 {    
+  font: bold 45px Noto Sans;
+}
+h3 {
+    font-size: 30px;
+}
+.label,
+.label:hover,
+.label:active,
+.label:visited{
+    background-color: #304267;   
+    color: #FFFFFF;
+}
+#minusbreak, #plusbreak, #minussession, #plussession, .label{
+    font-size: 25px;   
+}
+
+#timer{
+    font: bold 30px Noto Sans;
+}
+.timer-controls {
+    font-size: 45px;
+}
