@@ -1,0 +1,129 @@
+body {
+    background-color: #DFD8D0;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.main-wrapper {    
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    height: 568px;
+    width: 400px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #282828;
+    border: 2px solid #908b85;
+    border-radius: 10px;
+    box-shadow: 3px 6px 13px 1px rgba(0, 0, 0, 0.68);
+}
+
+.calculator {
+    width: 100%;
+}
+
+.key-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    
+}
+
+.calculator-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    width: 90px;
+    font-size: 2.8rem;
+    cursor: pointer;   
+    margin: 5px;
+    color: #FFFFFF;
+    background-color: #8D8D8D;
+    text-align: center;
+    border-radius: 8px;
+    transition: .1s ease-in;
+    box-shadow: 0px 3px 0px 0px #474747;
+}
+.red {
+  background-color: #a72d45;
+  box-shadow: 0px 3px 0px 0px #671c2a;
+}
+.operator {
+    font-size: 2.8rem;
+}
+.calculator-button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+.calculator-button,
+.calculator-button:hover,
+.calculator-button:active,
+.calculator-button:visited {
+  text-decoration: none !important;
+  outline: none !important;
+}
+/*
+.operator.small {
+    font-size: 1.5rem;
+
+
+}
+
+.calculator-button:hover {
+    background-color: #f5f5f5;
+}
+
+.calculator-button:first-child {
+    border-left: none;
+}
+
+.calculator-button:last-child {
+    border-right: none;
+}
+
+.calculator-button.orange {
+    background-color: #ff8d07;
+    color: #fff;
+}
+
+.calculator-button.orange:hover {
+    background-color: #ff971e;
+}
+
+.last-row .calculator-button {
+    border-bottom: none;
+}
+
+
+.fill-button {
+    cursor: default;
+}
+
+.fill-button:hover {
+    background-color: #e0e0e0;
+}
+
+*/
+#equal {
+    width: 190px;
+}
+
+#display {
+    color: #1C1C1C;
+    width: 95%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #b4b39d;
+    border-radius: 6px;
+    background-color: #D2D2C8;
+    margin-right: 10px;
+    font-size: 45px;
+    text-align: right;
+    line-height: 100px;
+    vertical-align: middle;
+}
