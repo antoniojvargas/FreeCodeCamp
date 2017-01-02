@@ -1,0 +1,82 @@
+body {
+    color : #000000;
+    background-color: #FFFFFF;   
+    font-family: 'Noto Sans', sans-serif; 
+}
+h1 {    
+  font: bold 30px Noto Sans;
+}
+.main-board {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    height: 459px;
+    width: 360px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border: 1px solid #C9C9C9;
+    
+}
+.titac-game{
+    width: 100%;
+}
+.board-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;    
+}
+.board-button{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 110px;
+    width: 120px;
+    font: bold 55px Noto Sans;
+    cursor: pointer;   
+    margin: 0px;
+    color: #FFFFFF;
+    background-color: #14BDAC;
+    text-align: center; 
+    border: 2px;  
+    border-color: #0DA192;
+}
+
+#X, #O {
+    width: 100px;
+    color: #000000;
+    border-radius: 0px;
+    background-color: #DCDCDC;
+    border-color: #DCDCDC;
+    text-align: right;
+    font: bold 16px Noto Sans;
+}
+
+#cell1 {
+    border-style: none solid solid none;
+}
+#cell2 {
+    border-style: none solid solid solid;
+}
+#cell3{     
+    border-style: none none solid solid;
+}
+#cell4{
+    border-style: solid solid solid none;
+}
+#cell5{
+   border-style: solid solid solid solid;
+}
+#cell6{
+    border-style: solid none solid solid;
+}
+#cell7{
+   border-style: solid solid none none;
+}
+#cell8{
+    border-style: solid solid none solid;
+}
+#cell9{
+    border-style: solid none none solid;
+}
