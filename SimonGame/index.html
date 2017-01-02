@@ -1,0 +1,46 @@
+<head>
+	<meta charset="UTF-8">
+	<title>Simon® Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">      
+</head>
+
+<body>
+	<div class="simon">
+		<div class="controller">    
+			<p class="title" id="gameTitle">Simon<sup>®</sup></p>
+			<div class="middle-row">
+				<div class="display">
+					<div class="round-number">--</div>
+				</div>
+				<div class="start">
+					<div class="start-button"></div>
+				</div>
+				<div class="strict">
+					<div class="strict-button"></div>
+				</div>
+			</div>
+			<div class="bottom-row">
+				<span class="off">OFF</span>
+				<div class="power-bg">
+					<div class="power-button float-left"></div>
+				</div>
+				<span class="on">ON</span>
+			</div>
+		</div>
+
+		<div class="row">  
+			<div data-tile="1" class="container green"></div>
+			<div data-tile="2" class="container red"></div>
+		</div>
+
+		<div class="row">
+			<div data-tile="4" class="container yellow"></div>
+			<div data-tile="3" class="container blue"></div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+	<script src="js/simon.js"></script>
+		
+</body>
